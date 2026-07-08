@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+data/raw/
+data/processed/*.pkl
+data/processed/*.parquet
+
+models/
+checkpoints/
+bert_dwdata_results/
+logs/
+
+.env
+.DS_Store
