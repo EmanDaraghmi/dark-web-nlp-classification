@@ -13,5 +13,15 @@ The project uses the DWData dataset. The dataset is not included in this reposit
 
 Place the extracted dataset inside:
 
-```text
-data/raw/
+## Run Additional Transformer Models
+
+### DistilBERT
+
+```bash
+python src/train_transformer.py \
+  --model_name distilbert-base-uncased \
+  --output_name distilbert \
+  --epochs 3 \
+  --max_length 128 \
+  --batch_size 8 \
+  --learning_rate 2e-5data/raw/
