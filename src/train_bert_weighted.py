@@ -1,4 +1,3 @@
-%%writefile src/train_bert_weighted.py
 import re
 import warnings
 from pathlib import Path
